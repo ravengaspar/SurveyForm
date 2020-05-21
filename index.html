@@ -1,0 +1,66 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css" type="text/css">
+    <title>Survey Form</title>
+</head>
+<body>
+    <main>
+        <h1 id="title">Free Code Camp Survey Form</h1>
+        <p id="description">Your opinion matters!</p>
+        <form action="" id="survey-form">
+            <label for="name" id="name-label">Name</label>
+            <br>
+            <input type="text" id="name" placeholder="Please enter name" required>
+            <br>
+            <label for="email" id="email-label" >Email</label>
+            <br>
+            <input type="email" id="email" placeholder="Please enter email" required>
+            <br>
+            <label for="number" id="number-label">Favourite Number 0-100</label>
+            <br>
+            <input type="nsumber" id="number" placeholder="0-100" min="0" max="100">
+            <br>
+            <label for="dropdown">What is your gender?</label>
+            <select name="dropdown" id="dropdown">
+                <option value="male">male</option>
+                <option value="female">female</option>
+                <option value="binary">binary</option>
+            </select>
+            <br>
+            <label for="radio">What is your occupation?</label>
+            <br>
+            <input type="radio" name="occupation" id="student" value="student">
+            <label for="student">Student</label>
+            <br>
+            <input type="radio" name="occupation" id="accountant" value="accountant">
+            <label for="accountant">Accountant</label>
+            <br>
+            <input type="radio" name="occupation" id="teacher" value="teacher">
+            <label for="Teacher">Teacher</label>
+            <br>
+            <input type="radio" name="occupation" id="unemployed" value="unemployed"> 
+            <label for="unemployed">Unemployed</label>
+            <br>
+            <textarea name="comment" id="comment-textarea" cols="30" rows="10">Please leave a comment</textarea>
+            <br>
+            <label for="checkbox">What are your interest(s)?</label>
+            <br>
+            <input type="checkbox" name="interest1" id="" value="computer">Computer
+            <input type="checkbox" name="interest2" id="" value="sports">Sports
+            <input type="checkbox" name="interest3" id="" value="cooking">Cooking
+            <input type="checkbox" name="interest4" id="" value="baking">Baking
+            <input type="checkbox" name="interest5" id="" value="academics">Academics
+            <input type="checkbox" name="interest6" id="" value="programming">Programming
+            <input type="checkbox" name="interest7" id="" value="finance">Finance
+            <input type="checkbox" name="interest8" id="" value="science">Science
+            <input type="checkbox" name="interest9" id="" value="literature">Literature
+            <input type="checkbox" name="interest10" id="" value="history">History
+            <button type="submit" id="submit">Submit</button>
+        </form>
+    </main>
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+</body>
+</html>
+
